@@ -1,3 +1,3 @@
-console.log("This is background Script");
+// console.log("This is background Script");
 
 

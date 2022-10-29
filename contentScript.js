@@ -1,4 +1,4 @@
-console.log("Running HitbullsEye Automation!");
+// console.log("Running HitbullsEye Automation!");
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   let ansData = message.keys;

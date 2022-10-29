@@ -1,5 +1,4 @@
 import data from "./ansKeys.json" assert { type: "json" };
-console.log("I am just a script!");
 
 //Run the sunctions after the contents are loaded
 document.addEventListener("DOMContentLoaded", runFunction);
