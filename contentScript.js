@@ -24,7 +24,7 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     try {
       let testName = document.querySelector(
         "#main_div > div.header > div.topBarBg > span > strong"
-      ).innerHTML;
+      ).textContent;
 
       let i = 0;
       console.log(testName);
