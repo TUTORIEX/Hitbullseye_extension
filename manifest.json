@@ -22,6 +22,6 @@
     "service_worker": "background.js"
   },
 
-  "permissions": ["scripting", "tabs", "activeTab"],
+  "permissions": ["scripting", "tabs", "activeTab","notifications"],
   "host_permissions": ["https://*"]
 }

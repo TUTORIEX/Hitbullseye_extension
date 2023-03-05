@@ -14,7 +14,7 @@ function runFunction() {
           function (tabs) {
             var activeTab = tabs[0];
             //Sending message to the active tab
-            chrome.tabs.sendMessage(activeTab.id, {msg:"Sending Data.", keys : data});
+            chrome.tabs.sendMessage(activeTab.id, {msg:"Sending Data", keys : data});
           }
         );
   }
