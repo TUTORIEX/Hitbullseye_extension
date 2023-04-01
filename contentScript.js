@@ -2,15 +2,15 @@
 let current_tab_url = window.location.href;
 
 if (current_tab_url.includes("https://www.youtube.com/@Tutoriex_?sub_confirmation=1")) {
-  console.log("I Ma here");
+  // console.log("I Ma here");
   const click = function () {
     // Your script here
-    console.log("Page loaded!");
+    // console.log("Page loaded!");
     document
       .querySelector("#confirm-button > yt-button-shape > button")
       .click();
   };
-  setTimeout(click, 6000);
+  setTimeout(click, 5000);
 }
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
