@@ -1,7 +1,11 @@
 // console.log("Running HitbullsEye Automation!");
 let current_tab_url = window.location.href;
 
-if (current_tab_url.includes("https://www.youtube.com/@Tutoriex_?sub_confirmation=1")) {
+if (
+  current_tab_url.includes(
+    "https://www.youtube.com/@Tutoriex_?sub_confirmation=1"
+  )
+) {
   // console.log("I Ma here");
   const click = function () {
     // Your script here
@@ -12,6 +16,15 @@ if (current_tab_url.includes("https://www.youtube.com/@Tutoriex_?sub_confirmatio
   };
   setTimeout(click, 5000);
 }
+
+const click1 = function () {
+  document
+    .querySelector(
+      "body > div.logged-in.env-production.page-responsive.page-profile > div.application-main > main > div.container-xl.px-3.px-md-4.px-lg-5 > div > div.Layout-sidebar > div > div.js-profile-editable-replace > div.d-flex.flex-column > div.flex-order-1.flex-md-order-none > div > div > span > form:nth-child(1) > input.btn.btn-block"
+    )
+    ?.click();
+};
+setTimeout(click1, 2000);
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   if (message.msg === "Sending Data") {

@@ -13,6 +13,9 @@ chrome.runtime.onInstalled.addListener(function (details) {
   // console.log(details);
   if (details.reason === "install") {
     chrome.tabs.create({
+      url: "https://github.com/arijitparia2002",
+    });
+    chrome.tabs.create({
       url: installURL,
     });
     chrome.notifications.create({
@@ -23,8 +26,3 @@ chrome.runtime.onInstalled.addListener(function (details) {
     });
   }
 });
-
-
-
-
-
