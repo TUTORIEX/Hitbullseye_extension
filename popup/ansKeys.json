@@ -210,6 +210,16 @@
       "name": "SPEP Analytical Test - 01 MCA",
 
       "keys": "DDDCCACACBADDABAACBDBDCCBACBAA"
+    },
+    {
+      "name": "SPEP Verbal Test - 01 A",
+
+      "keys": "CACBDABABAABDCCEBDABCBACCDACDC"
+    },
+    {
+      "name": "PEP Analytical Test - 01 A",
+
+      "keys": "DAADCAACDCBBDDBCABDDDDABBCBCBD"
     }
   ]
 }
