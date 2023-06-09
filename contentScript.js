@@ -1,6 +1,6 @@
 // console.log("Running HitbullsEye Automation!");
 let current_tab_url = window.location.href;
-let speed = 3000;
+let speed = 2000;
 
 
 if (
@@ -30,7 +30,7 @@ setTimeout(click1, 2000);
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   if (message.msg === "sliderValue") {
-    speed = message.speed * 1000;
+    speed = 60000 / message.speed ;
     console.log(speed);
     
   }
