@@ -227,13 +227,37 @@
       "keys": "CACABBBBBBCDDDDACBABCDBBCDCCBD"
     },
     {
-      "name": "PEP Analytical Test - 02 B",
+      "name": "SPEP Analytical Test - 02 B",
 
       "keys": "DBDCCABACCCDBBBCBADBACAAAAADDB"
     },
     {
       "name": "SPEP Verbal Test - 02 MCA",
       "keys": "BADDBCDDCBBDCBAACACACABDABDACC"
+    },
+    {
+      "name":"SPEP Analytical Test - 03 A",
+      "keys":"BCBCDACDBCDABCCBDBDCCCDBBBAACA"
+    },
+    {
+      "name":"SPEP Verbal Test - 03 B",
+      "keys":"CDBBDBCDCABCACBDABCBABABDABBDC"
+    },
+    {
+      "name":"SPEP Verbal Test - 03 MCA",
+      "keys":"ACDBDCBADCABDDCDCADCBABAABCAAC"
+    },
+    {
+      "name":"SPEP Analytical Test - 03 B",
+      "keys":"DAAABACADDCDDCDBAADCBCDDABDCDA"
+    },
+    {
+      "name":"SPEP Analytical Test - 03 MCA",
+      "keys":"DBDCCCACBACCCABDBBCABACAAADDBD"
+    },
+    {
+      "name":"SPEP Verbal Test - 03 A",
+      "keys":"ADADCACCBBCADCACABCDDCDBBACDDA"
     }
   ]
 }
