@@ -258,6 +258,14 @@
     {
       "name":"SPEP Verbal Test - 03 A",
       "keys":"ADADCACCBBCADCACABCDDCDBBACDDA"
+    },
+    {
+      "name":"SPEP Analytical Test - 06 B",
+      "keys":"ADBDCAADDCDCBDBBBADDADACBBCCCA"
+    },
+    {
+      "name": "SPEP Verbal Test - 06 B",
+      "keys": "DDBCDADCCDCADDDBACBCDDBCBDAABA"
     }
   ]
 }
